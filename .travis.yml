@@ -2,4 +2,5 @@ language: ruby
 before_script:
   - gem install percy-cli
 script:
-  - percy snapshot ./
+  - sh build.sh
+  - percy snapshot /dist
