@@ -3,4 +3,4 @@ before_script:
   - gem install percy-cli
 script:
   - sh build.sh
-  - percy snapshot /dist
+  - percy snapshot ./dist
