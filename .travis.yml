@@ -6,11 +6,14 @@ jobs:
       language: node_js
       before_script:
         - npm install axios
-      script:
-        - npm run build
-    - stage: percy
-      language: ruby
-      before_script:
         - gem install percy-cli
       script:
+        - npm run build
         - percy snapshot ./ --enable_javascript
+
+    # - stage: percy
+    #   language: ruby
+    #   before_script:
+    #     - gem install percy-cli
+    #   script:
+    #     - percy snapshot ./ --enable_javascript
