@@ -3,4 +3,4 @@
 rm -rf dist
 mkdir dist
 
-cp ./index.html dist/index.html
+cp ./components/test.js dist/test.html

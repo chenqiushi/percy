@@ -1,0 +1,20 @@
+{
+  "name": "percy",
+  "version": "1.0.0",
+  "description": "percy.io test project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sh build.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenqiushi/percy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chenqiushi/percy/issues"
+  },
+  "homepage": "https://github.com/chenqiushi/percy#readme"
+}
