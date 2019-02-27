@@ -13,4 +13,4 @@ jobs:
       before_script:
         - gem install percy-cli
       script:
-        - percy snapshot ./dist/ --enable_javascript
+        - percy snapshot ./ --enable_javascript
