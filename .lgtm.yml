@@ -1,0 +1,9 @@
+path_classifiers:
+  components:
+    - "components/**/*.js"
+extraction:
+  javascript:
+    index:
+      exclude: assets
+queries:
+  exclude: js/unused-local-variable
