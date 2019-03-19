@@ -19,6 +19,7 @@ module.exports = dir => {
     opts = req
   }
 
+console.log('123')
   const author = getGitUser()
   if (author) {
     setDefault(opts, 'author', author)
