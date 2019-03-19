@@ -1,6 +1,6 @@
 path_classifiers:
-  components:
-    - "components/**/*.js"
+  assets:
+    - "assets/**/*.*"
 extraction:
   javascript:
     index:
