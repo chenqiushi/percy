@@ -21,6 +21,7 @@ module.exports = dir => {
 
   let a = '123456'
   document.write('<script'+' src="'+encodeURI(a)+'"><'+'/script>');
+  document.write('<script'+' src="'+encodeURI(a)+'"><'+'/script>');
 
   const author = getGitUser()
   if (author) {
